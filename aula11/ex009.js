@@ -1,11 +1,11 @@
 function identificar() {
-  let contry = document.querySelector("#contry").value;
+  let country = document.querySelector("#country").value;
   let nation = document.querySelector("#res");
-  let nationality = (document.querySelector("#contry").value = "Brasil");
+  let nationality = "Brasil";
 
-  if (contry == nationality) {
-    nation.innerHTML = `Vivendo em ${contry}, você é <strong>Brasileiro</strong>!`;
+  if (country === nationality) {
+    nation.innerHTML = `Vivendo em ${country}, você é <strong>Brasileiro</strong>!`;
   } else {
-    nation.innerHTML = `Vivendo em ${contry}, você é <strong>estrangeiro!</strong>`;
+    nation.innerHTML = `Vivendo em ${country}, você é <strong>estrangeiro!</strong>`;
   }
 }
