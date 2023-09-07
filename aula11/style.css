@@ -1,0 +1,15 @@
+body {
+    font: normal 12pt Arial;
+    border: 1px solid black;
+    width: 400px;
+    height: 140px;
+    text-align: center;
+}
+
+#contry {
+    border: 1px solid black;
+}
+
+#res {
+    padding-top: 10px;
+}
